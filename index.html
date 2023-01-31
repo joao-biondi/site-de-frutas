@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon/favicon-32x32.png" />
+
+    <title>Quitandinha biondi</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- modelos de fruta na lista e no carrinho -->
+    <div class="models">
+
+        <!-- fruta na lista -->
+        <div class="fruta-item">
+            <a href="">
+                <div class="fruta-item--img"><img src="" /></div>
+                <div class="fruta-item--add">+</div>
+            </a>
+            <div class="fruta-item--price">R$ --</div>
+            <div class="fruta-item--name">--</div>
+            <div class="fruta-item--desc">--</div>
+        </div>
+
+        <!-- fruta no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <h1>Quitandinha biondi</h1>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <!-- /menu-openner -->
+
+    <!-- conteudo principal -->
+    <main>
+        
+        <h2>frutas</h2>
+
+        <div class="fruta-area"></div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas frutas</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .frutaWindowArea -->
+    <div class="frutaWindowArea">
+        <div class="frutaWindowBody">
+            <div class="frutaInfo--cancelMobileButton">Voltar</div>
+            <div class="frutaBig">
+                <img src="" />
+            </div>
+            <div class="frutaInfo">
+                <h1>--</h1>
+                <div class="frutaInfo--desc">--</div>
+                <div class="frutaInfo--sizearea">
+                    <div class="frutaInfo--sizes">
+                    </div>
+                </div>
+                <div class="frutaInfo--pricearea">
+                    <div class="frutaInfo--sector">Preço</div>
+                    <div class="frutaInfo--price">
+                        <div class="frutaInfo--actualPrice">R$ --</div>
+                        <div class="frutaInfo--qtarea">
+                            <button class="frutaInfo--qtmenos">-</button>
+                            <div class="frutaInfo--qt">1</div>
+                            <button class="frutaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="frutaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="frutaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .frutaWindowArea -->
+
+    <script src="frutas.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
